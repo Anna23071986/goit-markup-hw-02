@@ -1,0 +1,167 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.333;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.167;
+  letter-spacing: 3%;
+  color: #4d5ae5;
+}
+
+.logo .end-of-logo {
+  color: #2e2f42;
+}
+
+.list li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.list a:active {
+  color: #404bbf;
+  text-decoration: underline;
+  text-decoration-color: #404bbf;
+}
+
+.contact-information li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.contact-information a:hover,
+.contact-information a:focus {
+  color: #404bbf;
+}
+
+.first-section {
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.071;
+  letter-spacing: 2%;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #404bbf;
+  color: #ffffff;
+  letter-spacing: 4%;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4d5ae5;
+}
+
+.second-section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.second-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.third-section {
+  background-color: #f4f4fd;
+}
+
+.third-section h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.111;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.third-section h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.third-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: center;
+  background-color: #ffffff;
+  color: #434455;
+}
+
+.fourth-section h2 {
+  color: #2e2f42;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.fourth-section h3 {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+
+.fourth-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.logo .footer-logo {
+  color: #f4f4fd;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
