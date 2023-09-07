@@ -10,8 +10,6 @@ ul {
 
 a {
   text-decoration: none;
-  font-size: 12px;
-  line-height: 1.333;
 }
 
 .logo {
@@ -24,11 +22,11 @@ a {
   color: #4d5ae5;
 }
 
-.logo .end-of-logo {
+.end-of-logo {
   color: #2e2f42;
 }
 
-.list {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -36,11 +34,9 @@ a {
   color: #2e2f42;
 }
 
-.list:hover,
-.list:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
-  text-decoration: underline;
-  text-decoration-color: #404bbf;
 }
 
 .contact-block {
@@ -87,7 +83,7 @@ a {
   background-color: #404bbf;
 }
 
-.second-section .title {
+.title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -95,7 +91,7 @@ a {
   color: #2e2f42;
 }
 
-.second-section .title-text {
+.title-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -106,7 +102,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.third-section .title-team {
+.title-team {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -120,7 +116,7 @@ a {
   background-color: #ffffff;
 }
 
-.third-section .title {
+.title-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -130,7 +126,7 @@ a {
   color: #2e2f42;
 }
 
-.third-section .title-text {
+.title-text-profession {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -139,7 +135,7 @@ a {
   color: #434455;
 }
 
-.fourth-section .portfolio-title {
+.portfolio-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
@@ -149,7 +145,7 @@ a {
   text-transform: capitalize;
 }
 
-.fourth-section .title {
+.title-description {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
@@ -157,7 +153,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.fourth-section .title-text {
+.title-text-direction {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -168,7 +164,7 @@ a {
   color: #f4f4fd;
 }
 
-.logo .footer-logo {
+.footer-logo {
   color: #f4f4fd;
 }
 
