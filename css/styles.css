@@ -19,8 +19,8 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.167;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
 }
 
@@ -28,25 +28,27 @@ a {
   color: #2e2f42;
 }
 
-.list li {
+.list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-.list a:active {
+.list:hover,
+.list:focus {
   color: #404bbf;
   text-decoration: underline;
   text-decoration-color: #404bbf;
 }
 
-.contact-information li {
+.contact-information {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
 .contact-information a:hover,
@@ -60,38 +62,39 @@ a {
   text-align: center;
 }
 
-.title {
+.main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.071;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
-button {
+.service {
   font-weight: 500;
   font-size: 16px;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
   color: #ffffff;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #4d5ae5;
+.service:hover {
+  background-color: #404bbf;
 }
 
-.second-section h3 {
+.second-section .title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 2%;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.second-section p {
+.second-section .title-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -99,59 +102,60 @@ button:hover {
   background-color: #f4f4fd;
 }
 
-.third-section h2 {
+.third-section .title-team {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
 
-.third-section h3 {
+.third-section .title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
+  color: #2e2f42;
 }
 
-.third-section p {
+.third-section .title-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
   color: #434455;
 }
 
-.fourth-section h2 {
+.fourth-section .portfolio-title {
   color: #2e2f42;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 2%;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
 
-.fourth-section h3 {
+.fourth-section .title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.fourth-section p {
+.fourth-section .title-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-footer {
+.tagline {
   background-color: #2e2f42;
   color: #f4f4fd;
 }
@@ -160,8 +164,8 @@ footer {
   color: #f4f4fd;
 }
 
-footer p {
+.tagline-text {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
